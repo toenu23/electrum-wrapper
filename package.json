@@ -1,0 +1,24 @@
+{
+  "name": "electrum-wrapper",
+  "version": "0.1.0",
+  "description": "Minimal wrapper for Electrum Bitcoin API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toenu23/electrum-wrapper.git"
+  },
+  "keywords": [
+    "electrum",
+    "bitcoin",
+    "cryptocurrency"
+  ],
+  "author": "toenu <toenu23@gmail.com> (http://nxtresource.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toenu23/electrum-wrapper/issues"
+  },
+  "homepage": "https://github.com/toenu23/electrum-wrapper#readme"
+}
