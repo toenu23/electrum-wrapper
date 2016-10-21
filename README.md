@@ -2,7 +2,7 @@
 Minimal wrapper for Electrum Bitcoin API, supports TCP and TLS connections
 
 ### Installation
-`npm install electron-wrapper`
+`npm install electrum-wrapper`
 
 ### How to use
 See [examples](https://github.com/toenu23/electrum-wrapper/blob/master/examples/example.js)
