@@ -3,7 +3,7 @@ module.exports = function(options) {
   var Client = require('./lib/client');
 
   if (!options || !options.host || !options.protocol) {
-    return;
+    return new Error('Missing arguments');
   }
 
   if (!options.port) {
