@@ -1,6 +1,6 @@
 {
   "name": "electrum-wrapper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Minimal wrapper for Electrum Bitcoin API",
   "main": "index.js",
   "scripts": {
