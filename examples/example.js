@@ -4,22 +4,22 @@ var ElectrumClient = require('../index');
 
 /**
  * Create a new instance of our client
- * 
+ *
  * The following options are available:
- * 
+ *
  * protocol: 'tcp' or 'tls' (required)
  * host: IP or hostname (required)
  * port: Defaults to 50001 (tcp) and 50002 (tls)
- * 
+ *
  * When using TLS you may set other options which will be
  * passed to the tls.connect() function
  * (https://nodejs.org/api/tls.html#tls_tls_connect_options_callback)
- * 
+ *
  */
 var client = new ElectrumClient({
   protocol: 'tcp',
   host: 'electrum.online',
-  port: 50001
+  port: 50001,
 });
 
 
@@ -27,7 +27,7 @@ var client = new ElectrumClient({
  * Now we can send commands to the Electrum server
  * See http://docs.electrum.org/en/latest/protocol.html
  * for API documentation
- * 
+ *
  * Let's get the transaction history of a Bitcoin address
  */
 var address = '1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L';
@@ -75,3 +75,8 @@ client.on('error', function(err) {
   console.log(err);
 });
 
+/**
+ * Exit will close open TCP socket
+ */
+
+//  client.exit();
